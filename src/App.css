@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+ .single-page{
+  background-color: #1C2039;
+}
+  .inside-single-page{
+   background-color: #252C47;
+   display: flex;
+   align-items: center;
+   justify-content:center;
+  }
+  .grid-form h4{
+    color: #D8335E;
+  }
+  .button-together{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+
+.grid-form input {
+  padding: 1rem;
+  border-style: none;
+  background-color: #0000;
+  color:#ffff;
+  text-align: left;
+  width: 100%;
+  border: 1px solid #aaaab8;
+  border-radius: 7px;
+  font-size: 1rem;
+}
+
+.submit-btn {
+  color: white;
+  padding: 16px;
+  border-radius: 7px;
+  width: 100%;
+  background-color: #1C2039;
+  border-style: none;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  cursor: pointer;
+  gap: 7px;
+}
+.submit-btn:hover{
+  background-color: red;
+}
+.sidebar{
+  background-color: #1C2039;
+  position:absolute;
+  left: 0;
+  top: 150px;
+  height: 23rem;
+  width: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  cursor: pointer;
+  place-items: center;
+  
+}
+.navigation-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.nav-right-buttons{
+  display: flex;
+  gap:1rem;
+ 
+
+}
+.icons:hover{
+  scale: 1.5;
+}
+
+
+.discord-button{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  justify-content: center;
+} 
