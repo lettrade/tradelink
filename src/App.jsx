@@ -22,7 +22,7 @@ function App() {
       </div>
 
     <div className="inside-single-page">
-
+ok
     
     <div className="sidebar">
     <IoPersonCircleSharp className="icons" size={25} color="white"/>
