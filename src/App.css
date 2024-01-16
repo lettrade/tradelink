@@ -11,6 +11,8 @@
    display: flex;
    align-items: center;
    justify-content:center;
+   width: 778px;
+  margin: auto;
   }
   .grid-form h4{
     color: #D8335E;
