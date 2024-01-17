@@ -57,7 +57,7 @@
   background-color: red;
 }
 .sidebar{
-  background-color: #1C2039;
+  background-color: #252C47;
   position:absolute;
   left: 0;
   top: 150px;
@@ -68,6 +68,7 @@
   gap: 2rem;
   cursor: pointer;
   place-items: center;
+
   
 }
 .navigation-bar{
